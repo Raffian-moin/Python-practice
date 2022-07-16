@@ -22,3 +22,14 @@ def sort_key(company) :
 companies.sort(key= sort_key, reverse=True)
 
 print(companies)
+
+"""
+# SORTED
+sort() doesn't return a new list.so we can't assign sorted list to a new value. as a result original list gets changed. but sorted() doesn't modify original list. it returns a new list with changed order
+"""
+
+ages = [1, 4, 6, 8, 3]
+
+sorted_ages = sorted(ages)
+
+print(sorted_ages, ages)
