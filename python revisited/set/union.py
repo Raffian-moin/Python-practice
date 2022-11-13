@@ -10,5 +10,5 @@ print(language_union2)
 
 # set() vs pipe(|) operator
 
-# set accepts sets, lists, dictoary and converts them in set and then does the union
-# but pipe only accespt set
+# set accepts sets, lists, dictionary and converts them in set and then does the union
+# but pipe only accepts set
