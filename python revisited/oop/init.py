@@ -6,3 +6,4 @@ class MyClass:
 my_class = MyClass('moin', '23')
 
 print(my_class.amar_age)
+
