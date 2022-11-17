@@ -5,10 +5,12 @@ while test_cases:
     inputs = list(map(int,input().split()))
     horizontal_moves = 0
     vertical_moves = 0
-    if (inputs[0] != 1):
-        horizontal_moves = (inputs[0] - 1) * inputs[1]
-    if (inputs[1] != 1):
-        vertical_moves = (inputs[1] - 1)
+    target_x_coordinate = inputs[0]
+    target_y_coordinate = inputs[1]
+    if (target_x_coordinate != 1):
+        horizontal_moves = (target_x_coordinate - 1) * target_y_coordinate
+    if (target_y_coordinate != 1):
+        vertical_moves = (target_y_coordinate - 1)
 
     if horizontal_moves + vertical_moves == inputs[2]:
         print('YES')
